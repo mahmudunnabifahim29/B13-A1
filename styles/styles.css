@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.color-green{
+    color: #469165;
+}
+
+header{
+    background-color: white;
+
+}
+nav{
+    font-size: 16px;
+    width: 100%;
+    max-width: 1600px;
+    height:95px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+nav .menu a {
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.btn{
+    color: white;
+    font-weight: bold;
+    background-color: #469165;
+    height: 44px;
+    width: 164px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #1db96b;
+}
+#banner {
+    background: url(../assets/hero-bg.png) center/cover no-repeat;
+    width: 100%;
+    max-width: 1600px;
+    height: 675px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#banner .banner-content {
+    position: relative;
+    inset:0 0 2;
+    max-width: 900px;
+    text-align: center;
+}
+
+#banner .banner-content h5 {
+    display: inline-block;
+    padding: 6px 16px;
+    background-color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #2fbf71;
+    margin-bottom: 20px;
+}
+
+#banner .banner-content h1 {
+    height: 168px;
+    width: 770px;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.color-green {
+    color: #2fbf71;
+}
+#banner .banner-content p {
+    font-size: 18px;
+    color: white;
+    line-height: 1.7;
+    margin-bottom: 40px;
+    text-align:center;
+}
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.first-btn {
+    color: white;
+    font-weight: 600;
+    background-color: #469165;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.second-btn {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.first-btn:hover {
+    background: #27a863;
+}
+.second-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
