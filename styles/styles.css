@@ -44,9 +44,12 @@ nav .menu a {
     width: 164px;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
 .btn:hover {
-    background: #1db96b;
+    background-color: #1db96b;
+    transform: scale(1.05); 
 }
 #banner {
     background: url(../assets/hero-bg.png) center/cover no-repeat;
@@ -114,7 +117,7 @@ nav .menu a {
     display: flex;
     align-items: center;
     gap: 8px;
-    transition: all 0.5s cubic-bezier(0.12, 1.5, 0.76, 0.8);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .second-btn {
     background: transparent;
@@ -124,18 +127,14 @@ nav .menu a {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-    transition: all 0.5s cubic-bezier(0.32, 0.5, 0.46, 0.18);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .first-btn:hover {
-    transform: translateY(-5px);
-    transform: translateX(5px);
-    transform: translateZ(-5px);
+    transform: scale(1.05); 
     background: #27a863;
 }
 .second-btn:hover {
-    transform: translateY(-5px);
-    transform: translateX(5px);
-    transform: translateZ(-5px);
+    transform: scale(1.05); 
     background: rgba(255, 255, 255, 0.1);
 }
 
@@ -177,13 +176,11 @@ nav .menu a {
     gap: 24px;
     justify-content: center;
     flex-wrap: wrap;
-    transition: all 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
     
 }
 #partB .cards .card:hover {
-    transform: translateY(-5px);
-    transform: translateX(5px);
-    transform: translateZ(-5px);
+    transform: scale(1.05); 
     box-shadow: 0 18px 35px rgba(0, 25, 49, 0.15);
     background-color: #f9fbfd;
 }
