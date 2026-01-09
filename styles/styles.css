@@ -66,6 +66,16 @@ nav .menu a {
     text-align: center;
 }
 
+#banner .banner-content h1 {
+    height: 168px;
+    width: 770px;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
 #banner .banner-content h5 {
     display: inline-block;
     padding: 6px 16px;
@@ -76,15 +86,6 @@ nav .menu a {
     margin-bottom: 20px;
 }
 
-#banner .banner-content h1 {
-    height: 168px;
-    width: 770px;
-    color: white;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 20px;
-}
 .color-green {
     color: #2fbf71;
 }
@@ -113,6 +114,7 @@ nav .menu a {
     display: flex;
     align-items: center;
     gap: 8px;
+    transition: all 0.5s cubic-bezier(0.12, 1.5, 0.76, 0.8);
 }
 .second-btn {
     background: transparent;
@@ -122,11 +124,103 @@ nav .menu a {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.32, 0.5, 0.46, 0.18);
 }
 .first-btn:hover {
+    transform: translateY(-5px);
+    transform: translateX(5px);
+    transform: translateZ(-5px);
     background: #27a863;
 }
 .second-btn:hover {
+    transform: translateY(-5px);
+    transform: translateX(5px);
+    transform: translateZ(-5px);
     background: rgba(255, 255, 255, 0.1);
 }
 
+/* partB */
+
+#partB {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+
+#partB .partB-content {
+    width: 1110px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#partB .partB-content h2 {
+    font-size: 48px;
+    color: #001931;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+#partB .partB-content p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 1.5;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#partB .cards {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+    
+}
+#partB .cards .card:hover {
+    transform: translateY(-5px);
+    transform: translateX(5px);
+    transform: translateZ(-5px);
+    box-shadow: 0 18px 35px rgba(0, 25, 49, 0.15);
+    background-color: #f9fbfd;
+}
+
+#partB .card {
+    width: 260px;
+    padding: 32px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    text-align: center;
+}
+
+#partB .icon {
+    width: 56px;
+    height: 56px;
+    background: #ff5a5a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+#partB .icon img {
+    width: 24px;
+    height: 24px;
+}
+
+#partB .card h3 {
+    font-size: 18px;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+#partB .card p {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;
+}
